@@ -1,0 +1,8 @@
+baseURL = "https://mro.gihub.io/ProgrammableWebSwartz2013/"
+languageCode = "en-us"
+title = "Aaron Swartz’s A Programmable Web"
+theme = "ananke"
+
+[params]
+  subtitle = "An Unfinished Work"
+  author = "Aaron Swartz"
