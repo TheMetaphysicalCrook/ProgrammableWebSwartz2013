@@ -1,6 +1,6 @@
 ---
 title: "Building for Users"
-date: 2018-04-06T23:23:23+02:00
+date: 2018-04-06T23:23:17+02:00
 draft: true
 ---
 
@@ -22,8 +22,7 @@ different operating system, or got promoted and replaced by a subordinate (or vo
 out of office). They will last for years and years to come, so your URLs must last
 with them.
 
-Moreover, URLs do not just exist as isolated entities (like “http://
-example.org/lunch/bacon.html”). They combine to form patterns
+Moreover, URLs do not just exist as isolated entities (like “http://example.org/lunch/bacon.html”). They combine to form patterns
 (“bacon.html”, “lettuce.html”, “tomato.html”). And each of these
 patterns finds its place in a larger path of interaction (“/”, “/lunch/”,
 “/lunch/bacon.html”).
@@ -42,7 +41,7 @@ some don’t provide URLs at all, making a site hell for anyone who wants to sen
 something cool they found to their friends.)
 
 And when people who use such software find themselves having to write a
-URL on a t-shirt or link to something from an email, they create a redirect—a
+URL on a t-shirt or link to something from an email, they create a redirect — a
 special URL who’s only purpose is to introduce people to the nightmarish randomnumber
 system used by their actual website. This solves their immediate problem
 of figuring out what to write on the t-shirt, but it doesn’t solve any of the more
@@ -73,7 +72,7 @@ the Web should be an interactive medium, with everybody keeping their own notebo
 of interesting things they found and collaborating on documents with people
 and posting stuff they’d done or wanted to share.
 
-Editing a web page was as easy as clicking on it—you could just switch
+Editing a web page was as easy as clicking on it — you could just switch
 into editing mode and select and correct typos right on the page, just like in a
 word processor. (You’d hit save and it would automatically upload them to the
 server.) You could create new pages just by opening a new window and instead of
@@ -100,7 +99,7 @@ far more limited than the wide-reaching interactivity that Berners-Lee imagined.
 But let’s turn away from the past and back to the future. Sir Tim argued that
 to protect your URLs into the future, you needed to follow some basic principles. In
 his 1998 statement “Cool URIs don’t change”, (Available at http://www.w3.org/Provider/Style/URI.) described as “an attempt to redirect
-the energy behind the quest for coolness... toward usefulness [and] longevity,” he
+the energy behind the quest for coolness… toward usefulness [and] longevity,” he
 laid them out:
 
 However, I go on to disagree with Tim’s proposed solution for generating
@@ -151,24 +150,20 @@ you’re just not going to bother.
 Much better to plan ahead so that the problem never comes up in the first
 place, by leaving categories out of the URL altogether.
 
-So that’s a lot of don’ts, what about some do’s?
+So that’s a lot of dont’s, what about some do’s?
 
 Well one easy way to have safe URLs is to just pick numbers. So, for example,
 your blogging system might just assign each post with a sequential ID and give them
 URLs like:
 
-```
-http://posterous.com/p/234
-http://posterous.com/p/235
-http://posterous.com/p/236
-```
+    http://posterous.com/p/234
+    http://posterous.com/p/235
+    http://posterous.com/p/236
 
 Nothing wrong with that. However, if your site is a little more popular, the
 IDs can get quite long and confusing:
 
-```
-http://books.example.org/b/30283833
-```
+    http://books.example.org/b/30283833
 
 In a situation like this, you might want to encode numbers using base 36
 instead of base 10. Base 36 means you get to use all the letters in addition to just
@@ -183,7 +178,7 @@ confused.
 
 The result is that you have URLs that look like:
 
-http://books.example.org/b/3j7is
+    http://books.example.org/b/3j7is
 
 and end up being a lot shorter. While four base 10 digits can only go up to
 9999, in base 36 zzzz is actually 1,679,615. Not bad.
@@ -196,18 +191,18 @@ numbers, they’re unlikely to have anything that matches people’s search engi
 queries, making them less likely to be found in search results. To fix this, people are
 appending some text after the number, as in:
 
-http://www.hulu.com/watch/17003/saturday-night-liveweekend-update-judy-grimes
+    http://www.hulu.com/watch/17003/saturday-night-liveweekend-update-judy-grimes
 
 The text at the end is part of the URL, but it’s not used to identify the right
 page. Instead, the system looks only at the number. Once it gets there, it looks at
 the current title it has for the number, sees if it matches the URL, and if it doesn’t,
 redirects users to the correct one. That way they can type in:
 
-http://www.hulu.com/watch/17003/this-is-where-i-got-thejoke-above
+    http://www.hulu.com/watch/17003/this-is-where-i-got-thejoke-above
 
 or even:
 
-http://www.hulu.com/watch/17003/
+    http://www.hulu.com/watch/17003/
 
 (Isn’t interesting how even though we typically read books as series of pieces of paper stacked from left to right,
 we still refer to things that come earlier as “above” the others (or supra if you want to be all Latin about it), as
@@ -224,7 +219,7 @@ conventions here yet. I guess the hope is that they’ll notice the number and j
 the idea.)
 
 (You’ll note that all these URLs are within directories, not at the top-level.
-This just feels cleaner to me—I don’t like imagining the entire site’s files are sprawled
+This just feels cleaner to me — I don’t like imagining the entire site’s files are sprawled
 across the root directory randomly;it’s much nicer to think of them stacked up inside
 ‘/watch/‘ or ‘/b/‘. But if your main nouns are subdirectories themselves, as with the
 user pages on Twitter and Delicious, it might make sense to break this rule. (More
@@ -245,7 +240,7 @@ automatically links you to a new page with the slug “Robert/Davidson”. Espec
 with the numerous conventions about titles Wikipedia has built over the years
 (along with the endless back-up redirects), the result is surprisingly convenient.
 
-You’ll note that all this discussion has basically been about nouns—the main
+You’ll note that all this discussion has basically been about nouns — the main
 things that make up your site, whatever those are (videos, blog posts, books). There
 are typically three other types of pages: subpages (which drill down into some aspect
 of the nouns), site pages (like about and help and so on), and verbs (which let you
@@ -255,20 +250,20 @@ Subpages are some of the easiest, and some of the most difficult. In the easy
 cases, you just indicate the subpage by adding a slash and a slug for the subpage.
 So, if your page for Nancy Pelosi is at:
 
-http://watchdog.net/p/nancy_pelosi
+    http://watchdog.net/p/nancy_pelosi
 
 it seems pretty obvious that your page on her finances should be at:
 
-http://watchdog.net/p/nancy_pelosi/finances
+    http://watchdog.net/p/nancy_pelosi/finances
 
 Sometimes the majority of your site is subpages. So with Twitter, a user’s page
 is at:
 
-http://twitter.com/aaronsw
+    http://twitter.com/aaronsw
 
 while their status messages get URLs like:
 
-http://twitter.com/aaronsw/statuses/918239758
+    http://twitter.com/aaronsw/statuses/918239758
 
 (Notes: The “statuses” bit is redundant and the number way too long.)
 But things get more complicated when your nouns have more complex relationships.
@@ -280,17 +275,16 @@ interface, is so brilliant at its URL choices that it should be carefully studie
 decided that users were the primary object and gave them the whole space in ‘/‘
 (like Twitter). And underneath each user, you could filter by tags, so you have:
 
-http://delicious.com/aaronsw (links from me)
+    http://delicious.com/aaronsw (links from me)
 
-http://delicious.com/aaronsw/video (links from me tagged “video”)
+    http://delicious.com/aaronsw/video (links from me tagged “video”)
 
-http://delicious.com/aaronsw/video+tech (links from me tagged
-“video” and “tech”)
+    http://delicious.com/aaronsw/video+tech (links from me tagged “video” and “tech”)
 
 And then they created a special pseudo-user called tag that lets you see all
 links with a tag:
 
-http://delicious.com/tag/tech (all links tagged “tech”)
+    http://delicious.com/tag/tech (all links tagged “tech”)
 
 (The URLs for links aren’t as smart, but let’s not dwell on that.) It’s hard to
 give general rules for how to solve such inter-linking problems; you basically have
@@ -301,14 +295,13 @@ But for other apps that might make less sense.
 It’s tempting to just not decide and support all of them. So, in place of
 Delicious, you’d have:
 
-http://del.example.org/u/aaronsw (links from me)
+    http://del.example.org/u/aaronsw (links from me)
 
-http://del.example.org/t/tech (links about tech)
+    http://del.example.org/t/tech (links about tech)
 
-http://del.example.org/u/aaronsw/t:tech (links from about tech)
+    http://del.example.org/u/aaronsw/t:tech (links from about tech)
 
-http://del.example.org/t/tech/u:aaronsw (links about tech from
-me)
+    http://del.example.org/t/tech/u:aaronsw (links about tech from me)
 
 The problem here is that the last two are duplicates. You really want to pick
 one form and stay with it, otherwise you end up confusing search engines and
@@ -327,7 +320,7 @@ in there. But Delicious and Twitter seem to get by just by reserving all the imp
 potential-page-names and putting stuff there. So, as you’d expect, Twitter’s login
 page is at:
 
-http://twitter.com/login
+    http://twitter.com/login
 
 And, if you’re not expecting to have a lot of site pages, this will get you thru.
 (Be sure to reserve “help” and “about”, though.)
@@ -339,9 +332,9 @@ And, of course, be sure to follow all the noun-principles above.
 That was easy, so we’re left with just verbs. There are two ways you might
 imagine verbs working:
 
-pass the noun to the verb: /share?v=1234
+pass the noun to the verb: `/share?v=1234`
 
-pass the verb to the noun: /v/1234?m=share
+pass the verb to the noun: `/v/1234?m=share`
 
 After spending a lot of time experimenting with this, I’m convinced the latter
 is the right way. It takes up less of the “URL-space,” it sorts nicer in people’s address
@@ -349,14 +342,14 @@ bars, and it makes it visually clear that you’re doing something to an object.
 
 It’s tempting to just use subpages, like:
 
-/v/1234/share
+    /v/1234/share
 
 but I prefer the “?m=share” formulation for two reasons: first, it works even when
 your nouns already have subpages, and second, it makes it clear that the page is
 meant to do something, not just convey more information. But the converse is true
 as well. Don’t do:
 
-/p/nancy_pelosi?m=finances
+    /p/nancy_pelosi?m=finances
 
 making it look like the page is supposed to do something when it really just conveys
 more information.

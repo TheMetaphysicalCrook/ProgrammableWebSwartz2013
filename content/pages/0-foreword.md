@@ -1,14 +1,14 @@
 ---
 title: "Foreword by James Hendler"
 subtitle: "Editor, Synthesis Lectures on the Semantic Web: Theory and Technology"
-date: 2018-04-06T23:23:23+02:00
+date: 2018-04-06T23:23:15+02:00
 draft: true
 ---
 
 # Foreword by James Hendler
 
-In 2009, I invited Aaron Swartz to contribute a “synthesis lecture”—essentially
-a short online book—to a new series I was editing on Web Engineering. Aaron
+In 2009, I invited Aaron Swartz to contribute a “synthesis lecture” — essentially
+a short online book — to a new series I was editing on Web Engineering. Aaron
 produced a draft of about 40 pages, which is the document you see here. This was
 a “first version” to be extended later. Unfortunately, and much to my regret, that
 never happened.
@@ -33,8 +33,8 @@ An HTML version of the original is available at
 http://www.cs.rpi.edu/~hendler/ProgrammableWebSwartz2009.html.
 
 As a tribute to Aaron, Michael Morgan of Morgan & Claypool, the publisher
-of the series,and I have decided to publish it publicly at no cost.This work is licensed
-by Morgan & Claypool Publishers, http://www.morganclaypool.com, under a
+of the series,and I have decided to publish it publicly at no cost. 
+This work is licensed by Morgan & Claypool Publishers, http://www.morganclaypool.com, under a
 CC-BY-SA-NC license.
 
 Please attribute the work to its author, Aaron Swartz.

@@ -1,6 +1,6 @@
 ---
 title: "Building for Freedom"
-date: 2018-04-06T23:23:23+02:00
+date: 2018-04-06T23:23:22+02:00
 draft: true
 ---
 
@@ -38,15 +38,15 @@ The success of GNU/Linux has led to a larger free software movement as well as t
 
 The Mozilla Firefox browser, for example, is open source and currently makes up around 15% of market. Large portions of the Mac OS X operating system are also open source, including WebKit, the core of Safari, the Mac OS X web browser.
 
-The open source and free software movements have now built free alternatives for just about every major type of computer application, from word processing to video games. And for a time it seemed like Stallman’s dream had come true: one could truly continue to use computers without having laws restrict one’s freedom—it was possible “to get along without any software that is not free.”
+The open source and free software movements have now built free alternatives for just about every major type of computer application, from word processing to video games. And for a time it seemed like Stallman’s dream had come true: one could truly continue to use computers without having laws restrict one’s freedom — it was possible “to get along without any software that is not free.”
 
-***
+\* * *
 
 Meanwhile,TimBerners-Lee,anEnglishmanlivinginFrancewhoworkedat a physics lab in Switzerland, was frustrated with how difficult it was for physicists to share documents. And so, in 1989, he came up with the World Wide Web, developed the standards that made it work, and built the first web browser and web server.
 
-The power of the browser was its flexibility (or, in law professor Jonathan Zittrain’s phrase, its “generative nature”). Just as a general-purpose computer al- lowed you to run any program, from a music player to a graphing calculator, the web browser let you view any kind of document. A book, a physics paper, or photos of cats with funny captions—the web browser doesn’t care; it displays whatever the server provides it with.
+The power of the browser was its flexibility (or, in law professor Jonathan Zittrain’s phrase, its “generative nature”). Just as a general-purpose computer al- lowed you to run any program, from a music player to a graphing calculator, the web browser let you view any kind of document. A book, a physics paper, or photos of cats with funny captions — the web browser doesn’t care; it displays whatever the server provides it with.
 
-This seems like a trivial point now, but it was a vast change from other networked software at the time. Email programs, for example, are designed simply to display email—they have an enormously specialized interface for composing emails, finding emails, seeing who an email is from and to, and placing emails in different folders. The same was true for discussion software, chat software, and other pieces of software that communicated over the network.
+This seems like a trivial point now, but it was a vast change from other networked software at the time. Email programs, for example, are designed simply to display email — they have an enormously specialized interface for composing emails, finding emails, seeing who an email is from and to, and placing emails in different folders. The same was true for discussion software, chat software, and other pieces of software that communicated over the network.
 
 The Web was different: it did not specialize in any particular type of content, but let you share whatever you like.
 
@@ -79,7 +79,7 @@ The obvious solution to this challenge is simply to release the software on the 
 
 But only a completely asocial web application consists purely of software. The vast majority of them are interesting because they give you access to data contributed by other users as well. For example, the software that lets people edit web pages is just about the least interesting thing about Wikipedia. The reason the site is so popular is because so many people have put their accumulated knowledge into that software.
 
-Wikipedia has addressed this by going one step further—not only is the source code free, the data is too. Anyone can download a copy of the Wikipedia database (excluding users personal information) and start up their own copy of Wikipedia based on it. And then they can modify their copy of Wikipedia’s software to work however they please.
+Wikipedia has addressed this by going one step further — not only is the source code free, the data is too. Anyone can download a copy of the Wikipedia database (excluding users personal information) and start up their own copy of Wikipedia based on it. And then they can modify their copy of Wikipedia’s software to work however they please.
 
 It’s beautiful in theory, but in practice, of course, nobody does this. Even if your version of Wikipedia was full of fantastic new features, it would still be nearly impossible to get anyone to use it. People use Wikipedia because that’s where all the other people are; it’s practically impossible to get everyone to switch.
 
@@ -102,6 +102,6 @@ For free/open source software, there’s the official lists of the Open Source I
 
 That’s the legal details, but the technical ones are just as simple: provide a source code repository for all your code and SQL dumps for all your data.
 
-Of course, this leaves a lot of open questions. What about private data, for example? My own feeling is that people should at least be allowed to download their own data and any data they can access through the Web interface—e.g. the data about your friends on Facebook.
+Of course, this leaves a lot of open questions. What about private data, for example? My own feeling is that people should at least be allowed to download their own data and any data they can access through the Web interface — e.g. the data about your friends on Facebook.
 
 And there’s lots of room for experimenting in building sites that promote more Democratic control. Maybe you can try some things and tell me about them and they’ll make them into the second edition of this book.
