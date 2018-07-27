@@ -90,7 +90,7 @@ Marc Andreesen made half a billion dollars as UIUC’s browser became Netscape
 while Berners-Lee continued doing technical support for a team of physicists in
 Switzerland. (He later became a Research Scientist at MIT.)
 
-![CERN Screenshot](http://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif)
+![CERN Screenshot](https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif)
 
 The result is that we’re only reacquiring these marvelous features a couple
 decades later, through things like weblogs and Wikipedia. And even then, they’re
