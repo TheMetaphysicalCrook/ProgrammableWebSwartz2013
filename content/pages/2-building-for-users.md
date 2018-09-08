@@ -99,7 +99,7 @@ far more limited than the wide-reaching interactivity that Berners-Lee imagined.
 But let’s turn away from the past and back to the future. Sir Tim argued that
 to protect your URLs into the future, you needed to follow some basic principles. In
 his 1998 statement “Cool URIs don’t change”, (Available at http://www.w3.org/Provider/Style/URI.) described as “an attempt to redirect
-the energy behind the quest for coolness… toward usefulness [and] longevity,” he
+the energy behind the quest for coolness… toward usefulness [and] longevity”, he
 laid them out:
 
 However, I go on to disagree with Tim’s proposed solution for generating
@@ -167,7 +167,7 @@ IDs can get quite long and confusing:
 
 In a situation like this, you might want to encode numbers using base 36
 instead of base 10. Base 36 means you get to use all the letters in addition to just
-numbers,but only one case,so there’s no confusion about how to capitalize numbers.
+numbers, but only one case, so there’s no confusion about how to capitalize numbers.
 (Imagine someone reading the URL over the phone. It’s a lot easier to say “gee,
 five, enn, four” than “lower-case gee, the number five, upper case enn, the number
 four.”)
@@ -211,7 +211,7 @@ notebook-bound predecessors, I’m writing this in a wordprocessor whose simulat
 mimics Kerouac’s physical scroll. Coming full circle, I suppose.)
 
 and still get the right page. This isn’t perfect, since many users will still think they
-have to type in the long text “saturday-night-live-weekend-update-judy-grimes,”
+have to type in the long text “saturday-night-live-weekend-update-judy-grimes”,
 but it’s probably outweighed by the number of additional users who will find you
 more easily on search engines. (Ideally, there would be some way in the URL
 to indicate to humans that the remaining text is optional, but I haven’t seen any
@@ -337,7 +337,7 @@ pass the noun to the verb: `/share?v=1234`
 pass the verb to the noun: `/v/1234?m=share`
 
 After spending a lot of time experimenting with this, I’m convinced the latter
-is the right way. It takes up less of the “URL-space,” it sorts nicer in people’s address
+is the right way. It takes up less of the “URL-space”, it sorts nicer in people’s address
 bars, and it makes it visually clear that you’re doing something to an object.
 
 It’s tempting to just use subpages, like:
